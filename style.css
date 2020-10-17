@@ -1,0 +1,84 @@
+html {
+  background-image: url("background.gif");
+}
+body {
+  display:flex;
+  justify-content: center;
+  align-items:center; 
+  height:100vh;
+}
+section {
+  width: 75%;
+}
+.icon-grid {
+  display:flex;
+  justify-content: center;
+}
+.icon-container {
+  margin-top:48px;
+  width:75%;
+  display:grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+}
+.link-container {
+  margin-top:24px;
+  display:flex;
+  justify-content: center;
+}
+.link-container > a {
+  width:75%;
+  border: 2px solid #ddd;
+  padding:4px;
+  border-radius: 15px;
+  background: rgba(100,100,100,0.25);
+  transition: all .2s ease;
+}
+.link-container > a:hover {
+  background: rgba(0,0,0,1);
+}
+a > img {
+  width:100%;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+.google-search {
+  width:fit-content;
+  display: flex;
+  justify-content: center;
+  height:32px;
+  background:#fff;
+  border-radius: 100px;
+  padding:8px;
+}
+.google-search > input {
+  border:none;
+  margin:0;
+  margin-left:4px
+}
+.google-search > input:focus {
+  outline:none;
+}
+.submit-google > img {
+  height:32px;
+  margin-right:2px;
+}
+.submit-google:hover {
+  cursor:pointer;
+}
+.separator {
+  width:0px;
+  height:32px;
+  margin-right:6px;
+  border-left:1px solid #999;
+}
+.weather-container {
+  display:flex;
+  justify-content: center;
+  margin-bottom:24px;
+}
+.weatherwidget-io {
+  width:75%;
+}
