@@ -85,7 +85,16 @@ form {
 .weatherwidget-io {
   width:75%;
 }
-
+#send-to-google img {
+  transition: all .2s ease;
+}
+.google-search:hover img {
+  -webkit-transform:rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+}
 @keyframes buttonBackground {
   0% {
 		background-position: 0% 0%;
