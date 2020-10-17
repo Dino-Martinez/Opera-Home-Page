@@ -31,8 +31,10 @@ section {
   border: 2px solid #ddd;
   padding:4px;
   border-radius: 15px;
-  background: rgba(100,100,100,0.25);
+  background: linear-gradient(to bottom right, rgba(255,255,255,0.25), rgba(0,0,0,.75), rgba(0,0,0,.75));
+  background-size:400% 400%;
   transition: all .2s ease;
+  animation: buttonBackground 5s ease infinite;
 }
 .link-container > a:hover {
   background: rgba(0,0,0,1);
@@ -81,4 +83,16 @@ form {
 }
 .weatherwidget-io {
   width:75%;
+}
+
+@keyframes buttonBackground {
+  0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
 }
