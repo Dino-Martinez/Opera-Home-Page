@@ -2,7 +2,7 @@ let searchForm = document.getElementById("search-form");
 let submitButton = document.getElementById("submit-form");
 let googleButton = document.getElementById("send-to-google");
 let queryBox = document.getElementById("google-query");
-
+console.log("Ready");
 queryBox.addEventListener("keydown", function(event) {
   // Number 13 is the "Enter" key on the keyboard
   if (event.keyCode === 13) {
