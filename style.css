@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items:center; 
   height:100vh;
+  overflow: hidden;
 }
 section {
   width: 75%;
@@ -32,7 +33,7 @@ section {
   padding:4px;
   border-radius: 15px;
   background: linear-gradient(to bottom right, rgba(255,255,255,0.25), rgba(0,0,0,.75), rgba(0,0,0,.75));
-  background-size:400% 400%;
+  background-size:300% 300%;
   transition: all .2s ease;
   animation: buttonBackground 5s ease infinite;
 }
